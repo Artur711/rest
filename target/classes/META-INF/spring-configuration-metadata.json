@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.example.rest.kroger.configuration.ApplicationProperties",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties"
+    },
+    {
+      "name": "app.kroger",
+      "type": "com.example.rest.kroger.configuration.ApplicationProperties$Kroger",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties",
+      "sourceMethod": "getKroger()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.kroger.cilent-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties$Kroger"
+    },
+    {
+      "name": "app.kroger.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties$Kroger"
+    },
+    {
+      "name": "app.kroger.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties$Kroger"
+    },
+    {
+      "name": "app.kroger.scope",
+      "type": "java.lang.String",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties$Kroger"
+    },
+    {
+      "name": "app.kroger.token",
+      "type": "java.lang.String",
+      "sourceType": "com.example.rest.kroger.configuration.ApplicationProperties$Kroger"
+    }
+  ],
+  "hints": []
+}
